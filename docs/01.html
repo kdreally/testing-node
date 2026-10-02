@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lecture 1 — the price function</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p class="kicker"><a href="index.html">Testing Node.js</a> · Lecture 1</p>
+  <h1>The price function</h1>
+  <iframe src="https://www.youtube.com/embed/ziPmEkuOYUM" title="Unit tests force better Node.js code" allowfullscreen></iframe>
+  <p>The route could not be unit tested because the database, the clock, and the response were sealed inside it. <code>priceWithCoupon</code> takes a subtotal, a coupon, and a time. Ten percent off 100 is 90. An expired coupon is rejected.</p>
+  <pre>node --test lectures/01-price/pricing.test.js</pre>
+  <p>Code: <a href="https://github.com/kdreally/testing-node/blob/main/lectures/01-price/pricing.js">pricing.js</a> and <a href="https://github.com/kdreally/testing-node/blob/main/lectures/01-price/pricing.test.js">pricing.test.js</a>.</p>
+  <p><a href="https://www.youtube.com/watch?v=ziPmEkuOYUM">Watch on YouTube</a></p>
+</main>
+</body>
+</html>

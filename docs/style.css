@@ -1,0 +1,8 @@
+body { margin: 0; font: 18px/1.5 Georgia, serif; color: #1c1b19; background: #f7f4ee; }
+main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+a { color: #6b4e00; }
+h1 { font-size: 2rem; line-height: 1.2; }
+.kicker { letter-spacing: 0.08em; text-transform: uppercase; font: 0.75rem sans-serif; color: #6b4e00; }
+iframe { width: 100%; aspect-ratio: 16/9; border: 0; background: #12141a; }
+pre { font: 0.9rem/1.45 ui-monospace, monospace; background: #12141a; color: #ecece8; padding: 1rem; overflow: auto; }
+nav a { margin-right: 1rem; }

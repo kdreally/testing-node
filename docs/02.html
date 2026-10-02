@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lecture 2 — the route</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p class="kicker"><a href="index.html">Testing Node.js</a> · Lecture 2</p>
+  <h1>The route, with fakes</h1>
+  <iframe src="https://www.youtube.com/embed/uUq1_7VS8d0" title="Unit test a Node.js route with node:test" allowfullscreen></iframe>
+  <p>No server and no real database. The test passes a fake <code>getCoupon</code> and a plain object that records <code>status</code> and <code>send</code>. An expired coupon must become status 400. A valid coupon must put the total on the response. If the price test passes and this test fails, the bug is in the wiring.</p>
+  <pre>node --test lectures/02-route/route.test.js</pre>
+  <p>Code: <a href="https://github.com/kdreally/testing-node/tree/main/lectures/02-route">lectures/02-route</a>.</p>
+  <p><a href="https://www.youtube.com/watch?v=uUq1_7VS8d0">Watch on YouTube</a></p>
+</main>
+</body>
+</html>
