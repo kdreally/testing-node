@@ -6,6 +6,6 @@
     "node": ">=24"
   },
   "scripts": {
-    "test": "node --test lectures/01-price/pricing.test.js lectures/02-route/route.test.js lectures/03-database/database.test.js"
+    "test": "node --test lectures/01-price/pricing.test.js lectures/02-route/route.test.js lectures/03-database/database.test.js lectures/04-http/server.test.js lectures/05-shipping/shipping.test.js"
   }
 }

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lecture 4 — one real HTTP call</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p class="kicker"><a href="index.html">Testing Node.js</a> · Lecture 4</p>
+  <h1>One real HTTP call</h1>
+  <iframe src="https://www.youtube.com/embed/UkK_eaLUJ7U" title="Unit test one real HTTP call in Node.js" allowfullscreen></iframe>
+  <p><code>startCouponServer</code> takes the database and listens on port 0. The test sends SAVE10 and checks that <code>getCoupon</code> saw that code and that the status is 200. It does not check that ten percent off 100 is 90. A body that is not JSON is 400, and the route is not called.</p>
+  <pre>node --test lectures/04-http/server.test.js</pre>
+  <p>Code: <a href="https://github.com/kdreally/testing-node/tree/main/lectures/04-http">lectures/04-http</a>. Node 24. No packages.</p>
+</main>
+</body>
+</html>

@@ -12,9 +12,12 @@ node --test lectures/01-price/pricing.test.js lectures/02-route/route.test.js le
 
 | Lecture | Video | Code |
 |---|---|---|
-| 0. What this series is | [watch](https://www.youtube.com/watch?v=eEmXxNVxDR4) | [notes](docs/00.html) |
+| 0. What this series is | [watch](https://www.youtube.com/watch?v=j18JVdue7iw) | [notes](docs/00.html) |
 | 1. The price function | [watch](https://www.youtube.com/watch?v=ziPmEkuOYUM) | [lectures/01-price](lectures/01-price) |
 | 2. The route | [watch](https://www.youtube.com/watch?v=uUq1_7VS8d0) | [lectures/02-route](lectures/02-route) |
-| 3. A real database | not published yet | [lectures/03-database](lectures/03-database) |
+| 3. A real database | [watch](https://www.youtube.com/watch?v=_7G9FcktTZ8) | [lectures/03-database](lectures/03-database) |
+| 4. One real HTTP call | [watch](https://www.youtube.com/watch?v=UkK_eaLUJ7U) | [lectures/04-http](lectures/04-http) |
+| 5. The outbound quote | [watch](https://www.youtube.com/watch?v=ZMYrQpMBc3A) | [lectures/05-shipping](lectures/05-shipping) |
+| 6. Which test owns the failure | [watch](https://www.youtube.com/watch?v=1bIPkLwws8Q) | no new code |
 
-Still coming: one real HTTP call. Then this coupon example is finished.
+The coupon program ends at lecture 6. Lecture 4 checks that the code arrived. It does not recheck the discount. Lecture 5 owns the shipping quote. Lecture 6 names which test owns which failure.

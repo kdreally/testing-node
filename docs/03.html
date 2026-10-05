@@ -9,7 +9,8 @@
 <main>
   <p class="kicker"><a href="index.html">Testing Node.js</a> · Lecture 3</p>
   <h1>One real database</h1>
-  <p>The video for this lecture is not public yet.</p>
+  <iframe src="https://www.youtube.com/embed/_7G9FcktTZ8" title="Unit test a Node.js route against SQLite" allowfullscreen></iframe>
+  <p>One query, one coupon row, one assertion.</p>
   <p><code>getCoupon</code> runs a SELECT against SQLite. The test creates one table, inserts one coupon row, and makes one assertion: ten percent off 100 is 90. The response is still the fake from lecture 2. A missing file, a missing table, a missing row, or a bad date can fail the test before that assertion. That is why this test comes after the unit tests, not instead of them.</p>
   <pre>node --test lectures/03-database/database.test.js</pre>
   <p>Code: <a href="https://github.com/kdreally/testing-node/tree/main/lectures/03-database">lectures/03-database</a>. Node 24. No packages.</p>

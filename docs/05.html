@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lecture 5 — the outbound quote</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p class="kicker"><a href="index.html">Testing Node.js</a> · Lecture 5</p>
+  <h1>The call this program makes</h1>
+  <iframe src="https://www.youtube.com/embed/ZMYrQpMBc3A" title="Unit test the HTTP call your Node.js code makes" allowfullscreen></iframe>
+  <p><code>shippingFor</code> takes a total and a quote. A total of 40 with a quote of 12 keeps 12. A total of 90 ships for 0. A quote that is not ok returns an error. The route test passes a quote function that fails, and the status is 503. The discount is not checked again.</p>
+  <pre>node --test lectures/05-shipping/shipping.test.js</pre>
+  <p>Code: <a href="https://github.com/kdreally/testing-node/tree/main/lectures/05-shipping">lectures/05-shipping</a>. Node 24. No packages.</p>
+</main>
+</body>
+</html>
